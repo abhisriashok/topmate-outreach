@@ -55,3 +55,6 @@ Either way, good luck with [something specific to their goals/role]!
   for standard accounts) — sending too many in a short window risks a temporary restriction.
 - Never repurpose someone's public post content into the hook without adding your own
   perspective — reference it, don't quote it at length.
+- Before sending anything, check the contact's row in `tracker.xlsx` — if `Opted Out = Y` (e.g.
+  they unsubscribed from email), do not message them on LinkedIn either. If someone asks you on
+  LinkedIn to stop reaching out, mark `Opted Out = Y` and today's date in `Opt-Out Date` yourself.

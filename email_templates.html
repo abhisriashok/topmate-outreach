@@ -1,0 +1,216 @@
+<!--
+Branded HTML email templates for Topmate outreach — mirrors the copy in email_templates.md.
+Placeholders (same as email_templates.md / linkedin_templates.md):
+  [FIRST_NAME], [YOUR_NAME], [SERVICE], [TOPMATE_LINK], [SPECIFIC_HOOK], [SOCIAL_PROOF]
+Every email includes a one-click mailto: Unsubscribe link in the footer, pointed at
+abhisriashok@gmail.com. Anyone who uses it must be marked Opted Out = Y in tracker.xlsx and never
+contacted again (email, LinkedIn, or re-added from a future Apollo pull). Each footer also links
+to Abhineet's LinkedIn profile and newsletter as a low-pressure secondary CTA, above the
+unsubscribe line. [SOCIAL_PROOF] should default to "12 years in SaaS presales at BMC,
+Freshworks, and Verint" (real credential, not a fabricated stat). Email 1 also includes a
+testimonial quote card (Shantanu Godane, Topmate's only review so far) — deliberately not
+repeated in the follow-ups; swap it once more reviews come in.
+Palette pulled from topmate.io/abhineet_srivastava to feel consistent with the booking page:
+  CTA button: #141414 (near-black) on white
+  Background: #FDFBF9 (warm off-white)
+  Accent / links: #2D4FC5 (blue)
+  Body text: #212121 | Muted text: #5C5C5C
+Usage: fill placeholders, then pass the <body>...</body> inner HTML (or the full document) as
+htmlBody when creating the Gmail draft. Keep the plain-text version (email_templates.md) as the
+`body` fallback field — Gmail drafts support both simultaneously.
+-->
+
+<!-- ============================================================ -->
+<!-- EMAIL 1 — Initial Outreach -->
+<!-- ============================================================ -->
+<div style="margin:0;padding:0;background-color:#FDFBF9;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#FDFBF9;padding:32px 16px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;width:100%;background-color:#FFFFFF;border-radius:12px;overflow:hidden;">
+          <tr>
+            <td style="padding:32px 32px 8px 32px;">
+              <div style="font-size:13px;font-weight:600;letter-spacing:0.02em;color:#2D4FC5;text-transform:uppercase;margin-bottom:4px;">
+                Career Guidance &middot; Sales &amp; Presales
+              </div>
+              <div style="font-size:20px;font-weight:700;color:#141414;">[YOUR_NAME]</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 32px 8px 32px;font-size:16px;line-height:1.6;color:#212121;">
+              <p style="margin:0 0 16px 0;">Hi [FIRST_NAME],</p>
+              <p style="margin:0 0 16px 0;">[SPECIFIC_HOOK].</p>
+              <p style="margin:0 0 16px 0;">
+                I'm [YOUR_NAME] &mdash; [SOCIAL_PROOF], and I now run [SERVICE] sessions on Topmate.
+                I thought it might be useful for you given your situation.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 24px 32px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#FDFBF9;border-left:3px solid #2D4FC5;border-radius:4px;">
+                <tr>
+                  <td style="padding:14px 18px;">
+                    <p style="margin:0;font-size:14px;font-style:italic;line-height:1.5;color:#212121;">
+                      &ldquo;He cut right through the noise, understood where I was coming from, and gave me a crisp, well-thought-out roadmap. I walked away with total clarity on my next steps.&rdquo;
+                    </p>
+                    <p style="margin:8px 0 0 0;font-size:12px;color:#5C5C5C;">&mdash; Shantanu Godane</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 24px 32px;font-size:16px;line-height:1.6;color:#212121;">
+              <p style="margin:0;">If it's helpful, here's my booking page &mdash; pick whatever slot works:</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 24px 32px;">
+              <a href="[TOPMATE_LINK]" style="display:inline-block;background-color:#141414;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:12px 28px;border-radius:8px;">
+                Book a session &rarr;
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 32px 32px;font-size:16px;line-height:1.6;color:#212121;">
+              <p style="margin:0;">No pressure at all if the timing's off &mdash; happy to just connect either way.</p>
+              <p style="margin:16px 0 0 0;">Best,<br>[YOUR_NAME]</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 32px 8px 32px;border-top:1px solid #F0EEE9;">
+              <p style="margin:0;font-size:13px;color:#212121;">
+                Want more like this? <a href="https://www.linkedin.com/in/abhineet-srivastava/" style="color:#2D4FC5;text-decoration:none;font-weight:600;">Follow me on LinkedIn</a> &middot; <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496" style="color:#2D4FC5;text-decoration:none;font-weight:600;">Subscribe to my newsletter</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:8px 32px 24px 32px;">
+              <p style="margin:0;font-size:12px;color:#5C5C5C;">
+                Not interested? Just reply and let me know &mdash; no hard feelings.
+                <a href="mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails." style="color:#5C5C5C;text-decoration:underline;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- ============================================================ -->
+<!-- FOLLOW-UP 1 — Gentle Nudge -->
+<!-- ============================================================ -->
+<div style="margin:0;padding:0;background-color:#FDFBF9;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#FDFBF9;padding:32px 16px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;width:100%;background-color:#FFFFFF;border-radius:12px;overflow:hidden;">
+          <tr>
+            <td style="padding:32px 32px 8px 32px;">
+              <div style="font-size:13px;font-weight:600;letter-spacing:0.02em;color:#2D4FC5;text-transform:uppercase;margin-bottom:4px;">
+                Career Guidance &middot; Sales &amp; Presales
+              </div>
+              <div style="font-size:20px;font-weight:700;color:#141414;">[YOUR_NAME]</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 32px 8px 32px;font-size:16px;line-height:1.6;color:#212121;">
+              <p style="margin:0 0 16px 0;">Hi [FIRST_NAME],</p>
+              <p style="margin:0 0 16px 0;">Just floating this back up in case it got buried &mdash; no worries if now isn't the right time.</p>
+              <p style="margin:0 0 24px 0;">If you'd still like to chat, here's the link again:</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 24px 32px;">
+              <a href="[TOPMATE_LINK]" style="display:inline-block;background-color:#141414;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:12px 28px;border-radius:8px;">
+                Book a session &rarr;
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 32px 32px;font-size:16px;line-height:1.6;color:#212121;">
+              <p style="margin:0;">Either way, happy to help if something comes up down the line.</p>
+              <p style="margin:16px 0 0 0;">[YOUR_NAME]</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 32px 8px 32px;border-top:1px solid #F0EEE9;">
+              <p style="margin:0;font-size:13px;color:#212121;">
+                Want more like this? <a href="https://www.linkedin.com/in/abhineet-srivastava/" style="color:#2D4FC5;text-decoration:none;font-weight:600;">Follow me on LinkedIn</a> &middot; <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496" style="color:#2D4FC5;text-decoration:none;font-weight:600;">Subscribe to my newsletter</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:8px 32px 24px 32px;">
+              <p style="margin:0;font-size:12px;color:#5C5C5C;">
+                Not interested? Just reply and let me know &mdash; no hard feelings.
+                <a href="mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails." style="color:#5C5C5C;text-decoration:underline;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- ============================================================ -->
+<!-- FOLLOW-UP 2 — Final, Low-Pressure -->
+<!-- ============================================================ -->
+<div style="margin:0;padding:0;background-color:#FDFBF9;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background-color:#FDFBF9;padding:32px 16px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="560" cellpadding="0" cellspacing="0" style="max-width:560px;width:100%;background-color:#FFFFFF;border-radius:12px;overflow:hidden;">
+          <tr>
+            <td style="padding:32px 32px 8px 32px;">
+              <div style="font-size:13px;font-weight:600;letter-spacing:0.02em;color:#2D4FC5;text-transform:uppercase;margin-bottom:4px;">
+                Career Guidance &middot; Sales &amp; Presales
+              </div>
+              <div style="font-size:20px;font-weight:700;color:#141414;">[YOUR_NAME]</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 32px 24px 32px;font-size:16px;line-height:1.6;color:#212121;">
+              <p style="margin:0 0 16px 0;">Hi [FIRST_NAME],</p>
+              <p style="margin:0 0 16px 0;">
+                I'll leave this as my last note so I'm not cluttering your inbox &mdash; if [SERVICE]
+                becomes relevant later, the link's always open:
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 24px 32px;">
+              <a href="[TOPMATE_LINK]" style="display:inline-block;background-color:#141414;color:#FFFFFF;text-decoration:none;font-size:15px;font-weight:600;padding:12px 28px;border-radius:8px;">
+                Book a session &rarr;
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:0 32px 32px 32px;font-size:16px;line-height:1.6;color:#212121;">
+              <p style="margin:0;">Wishing you the best with your career goals ahead.</p>
+              <p style="margin:16px 0 0 0;">[YOUR_NAME]</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 32px 8px 32px;border-top:1px solid #F0EEE9;">
+              <p style="margin:0;font-size:13px;color:#212121;">
+                Want more like this? <a href="https://www.linkedin.com/in/abhineet-srivastava/" style="color:#2D4FC5;text-decoration:none;font-weight:600;">Follow me on LinkedIn</a> &middot; <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496" style="color:#2D4FC5;text-decoration:none;font-weight:600;">Subscribe to my newsletter</a>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:8px 32px 24px 32px;">
+              <p style="margin:0;font-size:12px;color:#5C5C5C;">
+                Not interested? Just reply and let me know &mdash; no hard feelings.
+                <a href="mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails." style="color:#5C5C5C;text-decoration:underline;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
