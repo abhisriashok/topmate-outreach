@@ -18,8 +18,11 @@ Palette pulled from topmate.io/abhineet_srivastava to feel consistent with the b
   Accent / links: #2D4FC5 (blue)
   Body text: #212121 | Muted text: #5C5C5C
 Usage: fill placeholders, then pass the <body>...</body> inner HTML (or the full document) as
-htmlBody when creating the Gmail draft. Keep the plain-text version (email_templates.md) as the
-`body` fallback field — Gmail drafts support both simultaneously.
+htmlBody when sending via the Gmail connector (send_message for a fresh email, reply for a
+threaded follow-up). Keep the plain-text version (email_templates.md) as the `body` fallback
+field — both are supported simultaneously. As of 2026-08-17, sending is fully automatic with no
+human review step (Abhineet's explicit choice) — these are sent live the moment they're
+generated, not created as drafts.
 -->
 
 <!-- ============================================================ -->
