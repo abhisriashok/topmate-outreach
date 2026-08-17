@@ -3,7 +3,7 @@
 Placeholders to fill in once (find/replace across this file):
 - `[FIRST_NAME]` — prospect's first name
 - `[YOUR_NAME]` — your name
-- `[SERVICE]` — the Topmate service/session you're promoting (e.g. "1:1 Career Coaching Call", "Resume Review")
+- `[SERVICE]` — the Topmate service/session you're promoting: "Career Guidance", "Breaking into Sales or Presales", "Sales & Presales Career Progression", or "Starting Out in Sales/Presales" (For Freshers). For the last one, drop the "(For Freshers)" qualifier when it's inline in a sentence — "I now run 'Starting Out in Sales/Presales' sessions on Topmate" reads better than dropping the full parenthetical name mid-sentence. Keep the full official name in tracker.xlsx's Service Interest column regardless.
 - `[TOPMATE_LINK]` — your Topmate booking link
 - `[SPECIFIC_HOOK]` — one specific, personalized reason you're reaching out to *this* person (shared connection, their recent post, their role/company)
 - `[SOCIAL_PROOF]` — default to the real credential line: "12 years in SaaS presales at BMC, Freshworks, and Verint". Do not use fabricated stats or claims not backed by your actual Topmate profile (currently 2 ratings / 1 testimonial — too small a sample to cite a number like "helped 40+ people").
