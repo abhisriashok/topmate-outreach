@@ -43,6 +43,7 @@ Best,
 
 P.S. — I post regularly about sales/presales careers on LinkedIn: https://www.linkedin.com/in/abhineet-srivastava/
 Also happy to have you subscribe to my newsletter there: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+And if you want a plug-and-play resource for your next discovery call, I put together a Presales Discovery Question Bank — 120 questions across 6 industries. It's on my Topmate page too.
 
 ---
 Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
@@ -69,6 +70,7 @@ Either way, happy to help if something comes up down the line.
 
 P.S. — I post regularly about sales/presales careers on LinkedIn: https://www.linkedin.com/in/abhineet-srivastava/
 Also happy to have you subscribe to my newsletter there: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+And if you want a plug-and-play resource for your next discovery call, I put together a Presales Discovery Question Bank — 120 questions across 6 industries. It's on my Topmate page too.
 
 ---
 Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
@@ -95,6 +97,7 @@ No worries either way.
 
 P.S. — I post regularly about sales/presales careers on LinkedIn: https://www.linkedin.com/in/abhineet-srivastava/
 Also happy to have you subscribe to my newsletter there: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+And if you want a plug-and-play resource for your next discovery call, I put together a Presales Discovery Question Bank — 120 questions across 6 industries. It's on my Topmate page too.
 
 ---
 Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
@@ -119,6 +122,7 @@ Let me know if anything changes on your end.
 
 P.S. — I post regularly about sales/presales careers on LinkedIn: https://www.linkedin.com/in/abhineet-srivastava/
 Also happy to have you subscribe to my newsletter there: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+And if you want a plug-and-play resource for your next discovery call, I put together a Presales Discovery Question Bank — 120 questions across 6 industries. It's on my Topmate page too.
 
 ---
 Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
@@ -143,6 +147,7 @@ Wishing you the best with [something specific to their goals/role].
 
 P.S. — I post regularly about sales/presales careers on LinkedIn: https://www.linkedin.com/in/abhineet-srivastava/
 Also happy to have you subscribe to my newsletter there: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+And if you want a plug-and-play resource for your next discovery call, I put together a Presales Discovery Question Bank — 120 questions across 6 industries. It's on my Topmate page too.
 
 ---
 Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
