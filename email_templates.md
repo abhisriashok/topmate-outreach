@@ -155,6 +155,38 @@ Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?sub
 
 ---
 
+## Newsletter Announcement — One-off broadcast
+**Send:** One-time, to existing Tracker contacts who are not Bounced/Opted Out (not part of the 5-touch sequence — doesn't change Stage/Next Action).
+**Subject options:**
+- New newsletter: Demo went perfectly, deal stalled anyway
+- Why demos don't close deals (new post)
+- A quick read for your week, [FIRST_NAME]
+
+**Body:**
+```
+Hi [FIRST_NAME],
+
+Quick note, not a pitch this time.
+
+I just published a new piece on my LinkedIn newsletter — "Demo went perfectly, deal stalled anyway" — on why a technically flawless demo so often isn't enough to actually close, and what separates the presales folks who get deals over the line from the ones who don't.
+
+Read it here:
+https://www.linkedin.com/pulse/demo-went-perfectly-deal-stalled-anyway-abhineet-srivastava-liwpf
+
+If it's useful, I'd love to have you along for future issues — I write regularly about presales/sales career growth and the day-to-day of the job:
+Subscribe on LinkedIn: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+
+No pressure either way — just sharing.
+
+Best,
+[YOUR_NAME]
+
+---
+Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
+```
+
+---
+
 ## Notes on deliverability & tone
 - Personalize `[SPECIFIC_HOOK]` per person — generic mail-merge blasts get flagged as spam and hurt your sender reputation.
 - Keep subject lines varied across a batch; identical subjects sent to many people in a short window is a common spam signal.
