@@ -187,6 +187,57 @@ Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?sub
 
 ---
 
+## Newsletter Announcement — Follow-up 1 (nudge)
+**Send:** ~5 days after the initial Newsletter Announcement, only to recipients who have not opted out/bounced/replied since.
+**Subject:** Re: [subject from original send]
+
+**Body:**
+```
+Hi [FIRST_NAME],
+
+Floating this back up in case it got buried.
+
+I recently wrote about why a demo that goes perfectly can still lose the deal — a pattern I saw over and over in presales:
+https://www.linkedin.com/pulse/demo-went-perfectly-deal-stalled-anyway-abhineet-srivastava-liwpf
+
+If that's useful, the newsletter's a good place to catch future ones:
+Subscribe on LinkedIn: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+
+No worries if it's not your thing right now.
+
+Best,
+[YOUR_NAME]
+
+---
+Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
+```
+
+---
+
+## Newsletter Announcement — Follow-up 2 (final)
+**Send:** ~1 week after Follow-up 1, only to recipients who have not opted out/bounced/replied since.
+**Subject:** Last mention of this one
+
+**Body:**
+```
+Hi [FIRST_NAME],
+
+Last nudge on this, promise — the newsletter piece is still up if you want a quick read on why demos don't always translate into closed deals:
+https://www.linkedin.com/pulse/demo-went-perfectly-deal-stalled-anyway-abhineet-srivastava-liwpf
+
+And if you'd like future issues without me pinging you individually:
+Subscribe on LinkedIn: https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7475477920728170496
+
+Either way, appreciate you reading this far.
+
+[YOUR_NAME]
+
+---
+Don't want to hear from me again? Unsubscribe: mailto:abhisriashok@gmail.com?subject=Unsubscribe&body=Please%20remove%20me%20from%20future%20emails.
+```
+
+---
+
 ## Notes on deliverability & tone
 - Personalize `[SPECIFIC_HOOK]` per person — generic mail-merge blasts get flagged as spam and hurt your sender reputation.
 - Keep subject lines varied across a batch; identical subjects sent to many people in a short window is a common spam signal.
